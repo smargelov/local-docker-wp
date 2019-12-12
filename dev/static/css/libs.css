@@ -1,0 +1,4 @@
+/* @import url('libs/filename.css'); */
+@import url('../../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css');
+@import url('../../../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css');
+@import url('../../../node_modules/lightbox2/src/css/lightbox.css');

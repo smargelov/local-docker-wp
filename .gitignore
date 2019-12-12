@@ -1,0 +1,9 @@
+.DS_store
+package-lock.json
+node_modules
+.idea
+wp-content/*
+!wp-content/plugins
+!wp-content/uploads
+/*.exe.stackdump
+.env
