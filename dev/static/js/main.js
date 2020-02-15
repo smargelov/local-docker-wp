@@ -1,5 +1,5 @@
 jQuery(function ($) {
-    
+
     $(document).ready(function () {
         svg4everybody({});
         var themuri = $("#themuri").attr("data-uri");
@@ -27,8 +27,8 @@ jQuery(function ($) {
         $(".faq__btn").click(function () {
             if (
                 $(this)
-                .parent()
-                .hasClass("faq__item--active")
+                    .parent()
+                    .hasClass("faq__item--active")
             ) {
                 $(this)
                     .text("+")
@@ -305,13 +305,13 @@ jQuery(function ($) {
         // Phone mask
         $(".phon").mask("+7 (999) 999-99-99");
 
-        
+
         // Mobile text hide
         if ($(window).width() <= 576) {
             $('.about-block__text h2').first().nextUntil('.about-block__text h3').wrapAll('<div class="text-wrap"></div>');
             $('.about-block__text h3').nextAll('p').wrapAll('<div class="text-wrap"></div>');
 
-            $('.text-wrap').click(function(e){
+            $('.text-wrap').click(function (e) {
                 $(this).toggleClass('text-wrap--active');
             })
             // console.log(title)
