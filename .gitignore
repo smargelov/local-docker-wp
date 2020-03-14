@@ -4,6 +4,7 @@ node_modules
 .idea
 wp-content/*
 !wp-content/plugins
+!wp-content/languages
 !wp-content/uploads
 /*.exe.stackdump
 .env
